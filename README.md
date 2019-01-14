@@ -26,5 +26,8 @@ Boss/Roland Katana (which I am using): https://www.boss.info/us/products/katana-
 
 Sending sysex messages straight to the USB midi in allows for a lot control more options.
 
+What got me started on this porject is a forum thread created by the author of the MS3 library: 
+https://www.vguitarforums.com/smf/index.php?topic=21864.0
+
 
 
