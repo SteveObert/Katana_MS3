@@ -1,11 +1,11 @@
 # Katana_MS3
 Katana midi controller
 
-I have a working prototype of a midi foot controller using an Arduino Uno and throught I'd port it to a Teensy board. I 
-thought Teensy might be a good idea because I wanted to add more functionaliy and program memory was getting quite full. I 
-also though it would be fun to learn more about Teensys.
+I have a working prototype of a midi foot controller using an Arduino Uno and thought I'd port it to a Teensy board. I 
+thought Teensy might be a good idea because I wanted to add more functionality and program memory was getting quite full. I 
+also, though it would be fun to learn more about Teensys.
 
-Roland/Boss guitar gear uses a non-class compliant USB device for midi controll. I found this library made for the BOSS MS3: 
+Roland/Boss guitar gear uses a non-class compliant USB device for midi control. Additionally, there is a checksum included in each sysex message. I found this library made for the BOSS MS3: 
 https://github.com/MrHaroldA/MS3.
 
 I was able to modify one line of code the MS3.h file in order to get it to work with a BOSS Katana amplifier. I changed 
@@ -22,6 +22,7 @@ to send sysex messages to the Katana.
 Boss/Roland MS3 (which I am not using): https://www.boss.info/global/products/ms-3/
 Boss/Roland Katana (which I am using): https://www.boss.info/us/products/katana-100/
 
-Sending sysex messages straight to the USB midi in allows for a lot control more options.
+Sending sysex messages straight to the USB midi in allows for a lot control more options
+
 
 
