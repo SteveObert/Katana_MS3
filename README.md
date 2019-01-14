@@ -3,7 +3,9 @@ Katana midi controller
 
 I have a working prototype of a midi foot controller using an Arduino Uno and thought I'd port it to a Teensy board. I 
 thought Teensy might be a good idea because I wanted to add more functionality and program memory was getting quite full. I 
-also, though it would be fun to learn more about Teensys.
+also, though it would be fun to learn more about Teensys. 
+
+Along with the Teensy 3.6, I was planning on using a Mini USB Host shield like this one: https://www.circuitsathome.com/usb-host-shield-hardware-manual/ along with the host shield library: https://github.com/felis/USB_Host_Shield_2.0.
 
 Roland/Boss guitar gear uses a non-class compliant USB device for midi control. Additionally, there is a checksum included in each sysex message. I found this library made for the BOSS MS3: 
 https://github.com/MrHaroldA/MS3.
