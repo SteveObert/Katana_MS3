@@ -23,8 +23,7 @@ The working Arduino prototype is using the https://github.com/felis/USB_Host_Shi
 I have stripped down my sketch to give a more bare bones example of the sort of things I want to do, which is basically 
 to send sysex messages to the Katana.
 
-Boss/Roland MS3 (which I am not using): https://www.boss.info/global/products/ms-3/
-Boss/Roland Katana (which I am using): https://www.boss.info/us/products/katana-100/
+This is the Boss/Roland MS3 (which I am not using): https://www.boss.info/global/products/ms-3/. Here is the Boss/Roland Katana (which I am using): https://www.boss.info/us/products/katana-100/
 
 Sending sysex messages straight to the USB midi in allows for a lot control more options.
 
