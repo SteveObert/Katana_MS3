@@ -20,8 +20,7 @@ part of the sysex header from 0x3b to 0x33 for Katana
 The working Arduino prototype is using the https://github.com/felis/USB_Host_Shield_2.0 library and a USB host shield
 (https://www.amazon.com/gp/product/B0777DR3T6/ref=ppx_yo_dt_b_asin_title_o03__o00_s00?ie=UTF8&psc=1)
 
-I have stripped down my sketch to give a more bare bones example of the sort of things I want to do, which is basically 
-to send sysex messages to the Katana.
+I have stripped down my MS3example.ino sketch to give a more bare bones example of the sort of things I want to do, which is basically, to send sysex messages to the Katana.
 
 This is the Boss/Roland MS3 (which I am not using): https://www.boss.info/global/products/ms-3/. Here is the Boss/Roland Katana (which I am using): https://www.boss.info/us/products/katana-100/
 
