@@ -8,7 +8,7 @@ also, though it would be fun to learn more about Teensys.
 Roland/Boss guitar gear uses a non-class compliant USB device for midi control. Additionally, there is a checksum included in each sysex message. I found this library made for the BOSS MS3: 
 https://github.com/MrHaroldA/MS3.
 
-I was able to modify one line of code the MS3.h file in order to get it to work with a BOSS Katana amplifier. I changed 
+I was able to modify one line of code in the MS3.h file in order to get it to work with a BOSS Katana amplifier. I changed 
 the sysex header from 0x3b to 0x33 for Katana
    #ifndef MS3_HEADER
    const byte MS3_HEADER[6] = {0x41, 0x00, 0x00, 0x00, 0x00, 0x33};
