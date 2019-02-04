@@ -13,6 +13,7 @@ Roland/Boss guitar gear uses a non-class compliant USB device for midi control. 
 
 I was able to modify one line of code in the MS3.h file in order to get it to work with a BOSS Katana amplifier. I changed 
 part of the sysex header from 0x3b to 0x33 for Katana
+
       #ifndef MS3_HEADER
       const byte MS3_HEADER[6] = {0x41, 0x00, 0x00, 0x00, 0x00, 0x33};
    
